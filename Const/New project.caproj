@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2ykazwmco8uz4</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="235950804292677">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="326131680502282" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\Rectangle 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="713578499941293">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="888473213369932">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332967983098013" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500911" original-source="C:\Users\User\Downloads\Logo Tavern (1).png">
+                        <collision-poly>
+                            <point x="0.5" y="0.0127505" />
+                            <point x="0.578689" y="0.499089" />
+                            <point x="0.816393" y="0.795993" />
+                            <point x="0.5" y="0.998178" />
+                            <point x="0.183607" y="0.795993" />
+                            <point x="0.421311" y="0.499089" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TavernStudio" sid="957427320063238">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="475481043148069">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="968849441383678" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\Tavern Studio (3).png">
+                        <collision-poly>
+                            <point x="0.00144509" y="0.00362319" />
+                            <point x="0.5" y="0.0615942" />
+                            <point x="0.971098" y="0.0724638" />
+                            <point x="0.958093" y="0.894928" />
+                            <point x="0.5" y="0.952899" />
+                            <point x="0.0404624" y="0.898551" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="logo_rpl" sid="984040469315340">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="719997788963153">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703137365711388" speed="5">
+                    <frame duration="1" hotspotX="0.501667" hotspotY="0.5" original-source="C:\Users\User\Downloads\[removal.ai]_23ab4734-ccb1-4ff1-8f77-16f088cc7a1a-whatsapp-image-2024-09-12-at-06-54-10.png">
+                        <collision-poly>
+                            <point x="0.0883117" y="0.0748899" />
+                            <point x="0.498701" y="0.00220264" />
+                            <point x="0.911688" y="0.0748899" />
+                            <point x="0.898701" y="0.5" />
+                            <point x="0.748052" y="0.786344" />
+                            <point x="0.498701" y="0.993392" />
+                            <point x="0.251948" y="0.786344" />
+                            <point x="0.0883117" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="605806666634651">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="556708754573193" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BackgroundVisual" sid="777444240820171">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="435512609215228" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\Background-Visual 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="802620448078317">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="927877425760526" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\Background-Visual 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MenuText" sid="733843454600230">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Fade" sid="829417572577047">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite5" sid="538692560397463">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="604526750502298" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="444465304283903">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="614121673997074" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\tefa_web_bkesemkasa-main\Plugin\Load-3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="464972015572594">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="678554692611932" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\Background.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="271111991558741">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Keyboard" sid="884559698969331">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite8" sid="272931278789886">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="631356833824401" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="740389625421874">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="636439714367877">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188849973389605" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500911" original-source="C:\Users\User\Downloads\Logo Tavern.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.0127505" />
+                            <point x="0.578689" y="0.499089" />
+                            <point x="0.816393" y="0.795993" />
+                            <point x="0.5" y="0.998178" />
+                            <point x="0.183607" y="0.795993" />
+                            <point x="0.421311" y="0.499089" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="970079538260048">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="767291656065111">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339738964589435" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\Tavern Studio.png">
+                        <collision-poly>
+                            <point x="0.00144509" y="0.00362319" />
+                            <point x="0.5" y="0.0615942" />
+                            <point x="0.971098" y="0.0724638" />
+                            <point x="0.958093" y="0.894928" />
+                            <point x="0.5" y="0.952899" />
+                            <point x="0.0404624" y="0.898551" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Splashtext" sid="800174059755112">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Fade" sid="983659700968739">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Options" sid="445449851915013">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="809371366563172" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\Rectangle 14.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Rectangle" sid="470564543813597">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="596566987464751" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\Rectangle 1 (1).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Group" sid="891306648330151">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="779384453685851" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\User\Downloads\Group 2.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="OptionText" sid="974922681946359">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SliderBar" sid="635618875181786">
+            <plugin id="sliderbar" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Splash.xml</layout>
+        <layout>Main Menu.xml</layout>
+        <layout>Scene 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>SplashScreen.xml</event-sheet>
+        <event-sheet>Main Menu.xml</event-sheet>
+        <event-sheet>Scene 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Audio" uid="10">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="11" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="y2mate.com - A Space for the Unbound Original Soundtrack Unbound.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file-folder name="Button">
+            <file name="Load.png" />
+            <file name="Load-1.png" />
+            <file name="Load-2.png" />
+            <file name="Load-3.png" />
+        </file-folder>
+        <file name="OptimusPrinceps.ttf" />
+    </files-folder>
+</c2project>

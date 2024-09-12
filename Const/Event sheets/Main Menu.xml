@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Main Menu</name>
+    <events>
+        <variable bookmark="1" comment="Buat Pilihan Selection" constant="0" name="Select" sid="420247911336450" static="0" type="number">0</variable>
+        <event-group description="" sid="846293973618912" title="Select">
+            <sub-events>
+                <event-block sid="604959236028020">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="144789950258588" type="Keyboard">
+                            <param id="0" name="Key">38</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="419791791004256">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="126063047737406" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="975903833114777" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="368919515742235">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="701850652712245" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="325629082087634" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="368606384763966">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="758078938846077" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="948392054902067" type="Sprite8">
+                            <param id="0" name="X">205</param>
+                            <param id="1" name="Y">173</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="703327871199763">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="731741157027485" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="325669645979798" type="Sprite8">
+                            <param id="0" name="X">205</param>
+                            <param id="1" name="Y">216</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="760447268548980">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="608198337516165" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="904673660277762" type="Sprite8">
+                            <param id="0" name="X">205</param>
+                            <param id="1" name="Y">261</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block bookmark="1" sid="957851749894483">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="751184688740092" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="763966590124245" type="Sprite8">
+                            <param id="0" name="X">205</param>
+                            <param id="1" name="Y">307</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="431040799309393">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="118804894135246" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="474221656207889">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="771217173363682" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="638602846163586" type="System">
+                                    <param id="0" name="Layout">Scene 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="827549999715903">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="823367526742657" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="517857251248789" type="Sprite8">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="312094711030902">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="934058693218529" type="Keyboard">
+                            <param id="0" name="Key">40</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="756275822563350">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="986157367808278" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="130877881197432" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="101292296994093">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="629569830151800" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="667521551513870" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="648360638576147" title="OptionAppear">
+            <sub-events>
+                <event-block sid="175528186093826">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="304699057493704" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="397669085817855" type="Sprite">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="1" name="Set visible" sid="479092629247601" type="SliderBar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="797049037483086" type="OptionText">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="147944569187606" type="Group">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="318854067378652">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="199250905871734" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="681473278653733">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="941670581509184" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="831130358518305" type="Sprite">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="1" name="Set visible" sid="988117013433265" type="SliderBar">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="254357376796235" type="OptionText">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="848869402356186" type="Group">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="184831019343350">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="774276398887933" type="System">
+                                            <param id="0" name="Variable">Select</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="815761972591822" type="MenuText">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="803624810453458" type="Sprite8">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="527255444611021">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="844625032120226" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="833742599849364" type="Sprite">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="1" name="Set visible" sid="136959586032171" type="SliderBar">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="370000139525532" type="OptionText">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="539608348249867" type="Group">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="445857835763058">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="105670738650151" type="Keyboard">
+                            <param id="0" name="Key">192</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="895795259822068" type="Sprite">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="1" name="Set visible" sid="561895230575210" type="SliderBar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="835400968676388" type="OptionText">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="126785226785774" type="Group">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="487431797331543">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="645627304823471" type="System">
+                                    <param id="0" name="Variable">Select</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="488006421605523" type="MenuText">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="310430819161099" type="Sprite8">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

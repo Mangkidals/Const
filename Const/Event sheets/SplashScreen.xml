@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>SplashScreen</name>
+    <events>
+        <event-block sid="490602426153018">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="752325733651435" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="488136414524128" type="System">
+                    <param id="0" name="Seconds">13.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="846696125071645" type="System">
+                    <param id="0" name="Layout">Main Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="155758132819874">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="653691547306801" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="557662278106428" type="System">
+                    <param id="0" name="Seconds">3.5</param>
+                </action>
+                <action id="-15" name="Set visible" sid="125828773526133" type="logo_rpl">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="138412831360647" type="logo_rpl" />
+            </actions>
+        </event-block>
+        <event-block sid="721192668580797">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="992966238317099" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="608308939845429" type="System">
+                    <param id="0" name="Seconds">7.5</param>
+                </action>
+                <action id="-15" name="Set visible" sid="830797370584529" type="Splashtext">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="573298861632624" type="Splashtext" />
+            </actions>
+        </event-block>
+        <event-block sid="950463846730430">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="291602816297897" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="825032108627447" type="Audio">
+                    <param id="0" name="Audio file">y2mate.com - A Space for the Unbound Original Soundtrack Unbound</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

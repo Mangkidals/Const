@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Scene 1</name>
+    <events>
+        <event-block sid="447397460313969">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="286533982383108" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="216855219492496" type="Audio">
+                    <param id="0" name="Tag">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
